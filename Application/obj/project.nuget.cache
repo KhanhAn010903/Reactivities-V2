@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ty3epaIZIAs=",
+  "dgSpecHash": "e4kR9MT3IWE=",
   "success": true,
   "projectFilePath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/home/hoangnh/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/home/hoangnh/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/home/hoangnh/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/hoangnh/.nuget/packages/microsoft.data.sqlite.core/9.0.0/microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
     "/home/hoangnh/.nuget/packages/microsoft.entityframeworkcore/9.0.0/microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
     "/home/hoangnh/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.0/microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
