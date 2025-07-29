@@ -1,40 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectDotnet\\Reactivities\\API\\API.csproj": {}
+    "/home/hoangnh/Desktop/Net/Reactivities-V2/API/API.csproj": {}
   },
   "projects": {
-    "D:\\ProjectDotnet\\Reactivities\\API\\API.csproj": {
+    "/home/hoangnh/Desktop/Net/Reactivities-V2/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectDotnet\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "/home/hoangnh/Desktop/Net/Reactivities-V2/API/API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\ProjectDotnet\\Reactivities\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectDotnet\\Reactivities\\API\\obj\\",
+        "projectPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/API/API.csproj",
+        "packagesPath": "/home/hoangnh/.nuget/packages/",
+        "outputPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hoangnh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ProjectDotnet\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "D:\\ProjectDotnet\\Reactivities\\Application\\Application.csproj"
+              "/home/hoangnh/Desktop/Net/Reactivities-V2/Application/Application.csproj": {
+                "projectPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Application/Application.csproj"
               }
             }
           }
@@ -49,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -83,44 +76,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectDotnet\\Reactivities\\Application\\Application.csproj": {
+    "/home/hoangnh/Desktop/Net/Reactivities-V2/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectDotnet\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "/home/hoangnh/Desktop/Net/Reactivities-V2/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\ProjectDotnet\\Reactivities\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectDotnet\\Reactivities\\Application\\obj\\",
+        "projectPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Application/Application.csproj",
+        "packagesPath": "/home/hoangnh/.nuget/packages/",
+        "outputPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hoangnh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ProjectDotnet\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\ProjectDotnet\\Reactivities\\Domain\\Domain.csproj"
+              "/home/hoangnh/Desktop/Net/Reactivities-V2/Domain/Domain.csproj": {
+                "projectPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Domain/Domain.csproj"
               },
-              "D:\\ProjectDotnet\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\ProjectDotnet\\Reactivities\\Persistence\\Persistence.csproj"
+              "/home/hoangnh/Desktop/Net/Reactivities-V2/Persistence/Persistence.csproj": {
+                "projectPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Persistence/Persistence.csproj"
               }
             }
           }
@@ -135,7 +121,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -156,33 +142,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectDotnet\\Reactivities\\Domain\\Domain.csproj": {
+    "/home/hoangnh/Desktop/Net/Reactivities-V2/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectDotnet\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/hoangnh/Desktop/Net/Reactivities-V2/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\ProjectDotnet\\Reactivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectDotnet\\Reactivities\\Domain\\obj\\",
+        "projectPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Domain/Domain.csproj",
+        "packagesPath": "/home/hoangnh/.nuget/packages/",
+        "outputPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hoangnh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -201,7 +180,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -222,41 +201,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProjectDotnet\\Reactivities\\Persistence\\Persistence.csproj": {
+    "/home/hoangnh/Desktop/Net/Reactivities-V2/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectDotnet\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "/home/hoangnh/Desktop/Net/Reactivities-V2/Persistence/Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\ProjectDotnet\\Reactivities\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectDotnet\\Reactivities\\Persistence\\obj\\",
+        "projectPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Persistence/Persistence.csproj",
+        "packagesPath": "/home/hoangnh/.nuget/packages/",
+        "outputPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Persistence/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hoangnh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ProjectDotnet\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\ProjectDotnet\\Reactivities\\Domain\\Domain.csproj"
+              "/home/hoangnh/Desktop/Net/Reactivities-V2/Domain/Domain.csproj": {
+                "projectPath": "/home/hoangnh/Desktop/Net/Reactivities-V2/Domain/Domain.csproj"
               }
             }
           }
@@ -271,7 +243,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -298,7 +270,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
