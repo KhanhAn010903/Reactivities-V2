@@ -302,3 +302,4 @@ D:/ProjectDotnet/Reactivities/API/bin/Debug/net9.0/runtimes/win-x86/native/e_sql
 /home/hoangnh/Desktop/Net/Reactivities-V2/API/obj/Debug/net9.0/ref/API.dll
 /home/hoangnh/Desktop/Net/Reactivities-V2/API/bin/Debug/net9.0/MediatR.dll
 /home/hoangnh/Desktop/Net/Reactivities-V2/API/bin/Debug/net9.0/MediatR.Contracts.dll
+/home/hoangnh/Desktop/Net/Reactivities-V2/API/bin/Debug/net9.0/AutoMapper.dll
