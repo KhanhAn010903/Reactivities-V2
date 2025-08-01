@@ -1,4 +1,5 @@
 using System;
+using Application.Core;
 using AutoMapper;
 using Domain;
 using MediatR;
@@ -8,18 +9,20 @@ namespace Application.Activities.Commands;
 
 public class UpdateActivity
 {
-    public class Commands : IRequest
+    public class Commands : IRequest<Result<Unit>>
     {
         public required Activity Activity { get; set; }
     }
-    public class Handler(AppDbContext context, IMapper mapper) : IRequestHandler<Commands>
+    public class Handler(AppDbContext context, IMapper mapper) : IRequestHandler<Commands, Result<Unit>>
     {
-        public async Task Handle(Commands request, CancellationToken cancellationToken)
+        public async Task<Result<Unit>> Handle(Commands request, CancellationToken cancellationToken)
         {
             var activity = await context.Activities.FindAsync([request.Activity.Id], cancellationToken);
-            if (activity == null) throw new Exception("Cannot find activity");
+            if (activity == null) return Result<Unit>.Failure("Activity not found", 404);
             mapper.Map(request.Activity, activity);
-            await context.SaveChangesAsync(cancellationToken);
+            var result = await context.SaveChangesAsync(cancellationToken) > 0;
+            if (!result) return Result<Unit>.Failure("Failed to update the activity", 400);
+            return Result<Unit>.Success(Unit.Value);
         }
     }
 }
