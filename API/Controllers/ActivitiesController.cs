@@ -1,4 +1,5 @@
 using Application.Activities.Commands;
+using Application.Activities.DTOs;
 using Application.Activities.Queries;
 using Application.DTOs;
 using Domain;
@@ -27,9 +28,9 @@ public class ActivitiesController : BaseApiController
     }
 
     [HttpPut]
-    public async Task<ActionResult> EditActivity(Activity activity)
+    public async Task<ActionResult> EditActivity(EditActivityDto activity)
     {
-        return HandleResult(await Mediator.Send(new UpdateActivity.Commands { Activity = activity }));
+        return HandleResult(await Mediator.Send(new UpdateActivity.Commands { ActivityDto = activity }));
     }
 
     [HttpDelete]
