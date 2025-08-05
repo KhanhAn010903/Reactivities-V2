@@ -17,12 +17,12 @@ agent.interceptors.request.use(config => {
 })
 agent.interceptors.response.use(
     async response => {
-        await sleep(500);
+        await sleep(1000);
         store.uiStore.isIdle()
         return response;
     },
     async error => {
-        await sleep(500);
+        await sleep(1000);
         store.uiStore.isBusy();
         console.log('axios error: ' + error);
         const { status, data } = error.response;
