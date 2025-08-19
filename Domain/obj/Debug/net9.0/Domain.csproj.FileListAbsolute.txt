@@ -21,3 +21,4 @@ D:/ProjectDotnet/Reactivities/Domain/obj/Debug/net9.0/ref/Domain.dll
 /home/hoangnh/Desktop/Net/Reactivities-V2/Domain/obj/Debug/net9.0/refint/Domain.dll
 /home/hoangnh/Desktop/Net/Reactivities-V2/Domain/obj/Debug/net9.0/Domain.pdb
 /home/hoangnh/Desktop/Net/Reactivities-V2/Domain/obj/Debug/net9.0/ref/Domain.dll
+/home/hoangnh/Desktop/Net/Reactivities-V2/Domain/obj/Debug/net9.0/Domain.csproj.AssemblyReference.cache
