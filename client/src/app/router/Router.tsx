@@ -6,6 +6,7 @@ import ActivityForm from "../../features/activities/form/ActivityForm";
 import ActivityDetail from "../../features/activities/details/ActivityDetailPage";
 import NotFound from "../../features/errors/NotFound";
 import ServerError from "../../features/errors/ServerError";
+import LoginForm from "../../features/account/LoginForm";
 
 export const router = createBrowserRouter([
     {
@@ -19,6 +20,7 @@ export const router = createBrowserRouter([
             {path : 'manage/:id' , element : <ActivityForm/>},
             {path : 'not-found' , element : <NotFound/>},
             {path : 'server-error' , element : <ServerError/>},
+            {path : 'login', element: <LoginForm/>},
             {path : '*' , element : <Navigate replace to={'/not-found'}/>}
         ]
     }

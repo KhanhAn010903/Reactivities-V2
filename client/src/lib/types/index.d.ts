@@ -1,17 +1,17 @@
 type Activity = {
-    id:string
-    title: string
-    date: Date
-    description: string
-    category: string
-    isCancelled: boolean
-    city: string
-    venue: string
-    latitude: number
-    longitude: number
+  id: string
+  title: string
+  date: Date
+  description: string
+  category: string
+  isCancelled: boolean
+  city: string
+  venue: string
+  latitude: number
+  longitude: number
 }
 
-export type LocationIQSuggestion =  {
+type LocationIQSuggestion = {
   place_id: string
   osm_id: string
   osm_type: string
@@ -27,13 +27,20 @@ export type LocationIQSuggestion =  {
   address: LocationIQAddress
 }
 
-export type LocationIQAddress =  {
+type User = {
+  id: string
+  email: string
+  displayName: string
+  imageUrl?: string
+}
+
+type LocationIQAddress = {
   name: string
   house_number: string
   road: string
   suburb?: string
-  town? : string
-  village? : string
+  town?: string
+  village?: string
   city?: string
   county: string
   state: string
